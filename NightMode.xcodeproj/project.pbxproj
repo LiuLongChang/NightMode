@@ -13,6 +13,8 @@
 		946C35231C607C1900FE6C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946C35211C607C1900FE6C5A /* Main.storyboard */; };
 		946C35251C607C1900FE6C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946C35241C607C1900FE6C5A /* Assets.xcassets */; };
 		946C35281C607C1900FE6C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946C35261C607C1900FE6C5A /* LaunchScreen.storyboard */; };
+		946C35311C607C4600FE6C5A /* NightModeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 946C35301C607C4600FE6C5A /* NightModeButton.m */; };
+		946C35341C607F5300FE6C5A /* NightModeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 946C35331C607F5300FE6C5A /* NightModeLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		946C35241C607C1900FE6C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		946C35271C607C1900FE6C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		946C35291C607C1900FE6C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946C352F1C607C4600FE6C5A /* NightModeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightModeButton.h; sourceTree = "<group>"; };
+		946C35301C607C4600FE6C5A /* NightModeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightModeButton.m; sourceTree = "<group>"; };
+		946C35321C607F5300FE6C5A /* NightModeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightModeLabel.h; sourceTree = "<group>"; };
+		946C35331C607F5300FE6C5A /* NightModeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightModeLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				946C351C1C607C1900FE6C5A /* AppDelegate.m */,
 				946C351E1C607C1900FE6C5A /* ViewController.h */,
 				946C351F1C607C1900FE6C5A /* ViewController.m */,
+				946C352F1C607C4600FE6C5A /* NightModeButton.h */,
+				946C35301C607C4600FE6C5A /* NightModeButton.m */,
+				946C35321C607F5300FE6C5A /* NightModeLabel.h */,
+				946C35331C607F5300FE6C5A /* NightModeLabel.m */,
 				946C35211C607C1900FE6C5A /* Main.storyboard */,
 				946C35241C607C1900FE6C5A /* Assets.xcassets */,
 				946C35261C607C1900FE6C5A /* LaunchScreen.storyboard */,
@@ -151,7 +161,9 @@
 			files = (
 				946C35201C607C1900FE6C5A /* ViewController.m in Sources */,
 				946C351D1C607C1900FE6C5A /* AppDelegate.m in Sources */,
+				946C35341C607F5300FE6C5A /* NightModeLabel.m in Sources */,
 				946C351A1C607C1900FE6C5A /* main.m in Sources */,
+				946C35311C607C4600FE6C5A /* NightModeButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
